@@ -7,11 +7,15 @@ Este proyecto es un programa CRUD en Python que se conecta a una base de datos M
 - Python 3.8 o superior
 - MongoDB 4.4 o superior
 - Un entorno virtual de Python
+  
   Instalación de Python
 
     Abre una terminal.
+
     Actualiza el gestor de paquetes de tu sistema con el comando: sudo apt update
+
     Instala Python con el comando: sudo apt install python3.8
+
     Verifica la instalación con el comando: python3 --version
 
 Instalación de MongoDB
@@ -33,7 +37,9 @@ Instalación de MongoDB
 Configuración del Entorno Virtual
 
   Crea un entorno virtual utilizando el siguiente comando: python3 -m venv env
+  
   Activa el entorno virtual en Linux: source env/bin/activate
+  
   Una vez activado el entorno virtual, instala pymongo (un controlador de MongoDB para Python) utilizando el siguiente comando: pip install pymongo
 
 ## Conexión a la Base de Datos
@@ -65,10 +71,10 @@ Este comando importará los datos del archivo matches.csv a la colección colecc
 
   Clona el repositorio: git clone https://github.com/SrTimin/Base-De-Datos.git
   
-  Navega hasta el directorio del proyecto: cd tu-proyecto
+  Navega hasta el directorio del proyecto: cd Base-De-Datos
   
   Activa el entorno virtual.
   
-  Ejecuta el programa: python main.py
+  Ejecuta el programa: python guia1-matias-bravo.py
 
 Una vez que el programa esté en ejecución, puedes seleccionar una opción del menú CRUD para interactuar con la base de datos.

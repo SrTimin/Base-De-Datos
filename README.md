@@ -99,10 +99,12 @@ Este programa se conecta a una base de datos MongoDB local en la dirección `mon
 
   Clona el repositorio: git clone https://github.com/SrTimin/Base-De-Datos.git
   
-  Navega hasta el directorio del proyecto: cd Base-De-Datos
+  Navega hasta el directorio del proyecto
   
   Activa el entorno virtual.
   
-  Ejecuta el programa: python guia1-matias-bravo.py
+  Ejecuta el programa:
+
+       python guia1-matias-bravo.py
 
 Una vez que el programa esté en ejecución, puedes seleccionar una opción del menú CRUD para interactuar con la base de datos.
